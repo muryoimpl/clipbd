@@ -13,7 +13,9 @@
   "license": "ISC",
   "dependencies": {
     "electron-prebuilt": "^0.31.1",
-    "react": "^0.13.3"
+    "react": "^0.13.3",
+    "redux": "^1.0.1",
+    "redux-react": "^1.0.3"
   },
   "devDependencies": {
     "babel": "^5.8.23",
