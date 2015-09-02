@@ -11,7 +11,7 @@
   },
   "keywords": [],
   "author": "muryoimpl",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "electron-prebuilt": "^0.31.1",
     "react": "^0.13.3",
