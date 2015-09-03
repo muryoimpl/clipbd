@@ -14,7 +14,9 @@
   "license": "MIT",
   "dependencies": {
     "electron-prebuilt": "^0.31.1",
+    "material-ui": "^0.11.0",
     "react": "^0.13.3",
+    "react-tap-event-plugin": "^0.1.7",
     "redux": "^1.0.1",
     "redux-react": "^1.0.3"
   },
