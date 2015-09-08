@@ -7,7 +7,7 @@ var ROOT_PATH = path.resolve(__dirname);
 var TARGET = process.env.npm_lifecycle_event;
 
 var common = {
-  entry: path.resolve(ROOT_PATH, 'components/main'),
+  entry: path.resolve(ROOT_PATH, 'main.jsx'),
 
   output: {
     path: path.resolve(ROOT_PATH, './'),
