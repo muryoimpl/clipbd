@@ -7,7 +7,7 @@ var ROOT_PATH = path.resolve(__dirname);
 var TARGET = process.env.npm_lifecycle_event;
 
 var common = {
-  entry: path.resolve(ROOT_PATH, 'components/main'),
+  entry: path.resolve(ROOT_PATH, 'main.jsx'),
 
   output: {
     path: path.resolve(ROOT_PATH, './'),
@@ -28,7 +28,6 @@ if (TARGET === 'start') {
         {
           test: /\.jsx?$/,
           loaders: ['react-hot-loader', 'babel?stage=1'],
-          include: path.resolve(ROOT_PATH, 'components'),
           exclude: path.resolve(ROOT_PATH, 'node_modules')
         }
       ]
@@ -57,7 +56,6 @@ if (TARGET === 'build') {
         {
           test: /\.jsx?$/,
           loaders: ['babel?stage=1'],
-          include: path.resolve(ROOT_PATH, 'components'),
           exclude: path.resolve(ROOT_PATH, 'node_modules')
         }
       ]

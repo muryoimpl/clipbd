@@ -4,18 +4,23 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "electron": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server",
     "build": "webpack --progress --color"
   },
   "keywords": [],
   "author": "muryoimpl",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "electron-prebuilt": "^0.31.1",
+    "material-ui": "^0.11.0",
     "react": "^0.13.3",
-    "redux": "^1.0.1",
-    "redux-react": "^1.0.3"
+    "react-redux": "^2.1.1",
+    "react-tap-event-plugin": "^0.1.7",
+    "redux": "^2.0.0",
+    "underscore": "^1.8.3",
+    "uuid": "^2.0.1"
   },
   "devDependencies": {
     "babel": "^5.8.23",
